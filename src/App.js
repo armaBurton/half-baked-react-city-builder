@@ -21,9 +21,6 @@ function App() {
   // you'll need to track a city name, which starts as the city name of your choice.
   // finally, you'll need an array of slogans, which could start out as ['The City of Excellence'] for example
 
-  // console.log(slogan[0]);
-  console.log(`app.js `, slogan);
-
   return (
     <div className="App">
       {/* here, the City component takes in skylineId, waterfrontId, castleId as props. It'll use those ids to render pictures correctly. */}

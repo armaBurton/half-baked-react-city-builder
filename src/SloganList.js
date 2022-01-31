@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function SloganList(slogan) {
-  console.log(slogan);
 
   return (
     <section>
