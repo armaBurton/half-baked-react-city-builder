@@ -34,10 +34,15 @@ select {
 }
 
 .bottom {
-    width: 100%;
+    /* width: 100%; */
+    width: innerWidth;
     height: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     border: solid 1px black;
+}
+
+p{
+    margin: 0;
 }
